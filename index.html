@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+
+    <link rel="icon" href="../img/devchallenges.png" />
+
+    <!-- <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    /> -->
+
+    <link rel="stylesheet" href="style.css"></link>
+
+    <title>Interior Consultants Inc.</title>
+
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">Interior Inc.</div>
+        <nav>
+          <div class="nav2" id="nav2">
+            <ul class="navlist">
+              <li class="listitem currentpage">Home</li>
+              <li class="listitem">Collection</li>
+              <li class="listitem">About</li>
+              <li class="listitem">Contact</li>
+            </ul>
+          </div>
+        </nav>
+        <button class="burgerbutton" id="burgerbutton" onclick="toggleNavigation()">
+          <div class="burgerbutton__bar"></div>
+          <div class="burgerbutton__bar"></div>
+          <div class="burgerbutton__bar"></div>
+        </button>
+      </div>
+
+      <nav>
+        <div class="nav" id="nav">
+          <ul class="navlist">
+            <li class="listitem currentpage">Home</li>
+            <li class="listitem">Collection</li>
+            <li class="listitem">About</li>
+            <li class="listitem">Contact</li>
+          </ul>
+        </div>
+        <div class="backdrop"></div>
+      </nav>
+    </header>
+
+    <div class="main">
+
+      <div class="textual">
+        <h1>Modern Interiors</h1>
+        <p>World-class interior solutions for your design and staging needs. We offer expert service to our residential & commercial clients looking for a refined touch.</p>
+        <span class="readmore">Read more →</span>
+      </div>
+
+      <div class="pictual">
+        <img class="pic-room" src="../img/photo1.png" alt="snazzy room">
+        <div class="designcredit">
+          <div class="designcredit__top">
+            <img class="designcredit__pic" src="../img/photo2.png" alt="aliza webber">
+            <div class="designcredit__topright">
+              <p class="aliza">Aliza Webber</p>
+              <p class="subtext">Interior designer</p>
+            </div>
+          </div>
+          <p class="blurb">Designed in 2020 by<br/> Aliza Webber</p>
+        </div>
+      </div>
+      
+      </div>
+    
+    <footer>Created by <span class="underline">@yuandere</span> - devChallenges.io</footer>
+
+    <script>
+      const toggle = (elementId) => {
+        const element = document.getElementById(elementId);
+
+        if (element.classList.contains(elementId + "--open")) {
+          element.classList.remove(elementId + "--open")
+        } else {
+          element.classList.add(elementId + "--open")
+        }
+      }
+
+      const toggleNavigation = () => {
+        toggle("nav");
+        toggle("burgerbutton")
+      }
+    </script>
+  </body>
+  
+  </html>
