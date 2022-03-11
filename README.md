@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://brave-engelbart-361c63.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/yuandere/interior-consultant-page-challenge">
       Solution
     </a>
     <span> | </span>
@@ -38,9 +38,8 @@
 
 | Mobile | Desktop |
 | --- | --- |
-| ![screenshot1](./img/screenshotmobile.jpgteamscreen1.jpg) | ![screenshot2](./img/screenshotwide.jpg) |
+| ![screenshot1](./img/screenshotmobile.jpg) | ![screenshot2](./img/screenshotwide.jpg) |
 
-xxx
 
 ### Built With
 
